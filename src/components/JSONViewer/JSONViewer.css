@@ -1,0 +1,60 @@
+.json-viewer {
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+  background: #1e1e1e;
+  color: #d4d4d4;
+  padding: 20px;
+  border-radius: 12px;
+  overflow: auto;
+  max-height: 80vh;
+}
+
+.json-node {
+  margin: 2px 0;
+}
+
+.json-children {
+  border-left: 1px solid #3a3a3a;
+  margin-left: 8px;
+}
+
+.json-key {
+  color: #9cdcfe;
+  margin-right: 6px;
+}
+
+.json-string {
+  color: #ce9178;
+}
+
+.json-number {
+  color: #b5cea8;
+}
+
+.json-boolean {
+  color: #569cd6;
+}
+
+.json-null {
+  color: #569cd6;
+}
+
+.json-bracket {
+  color: #ffd700;
+}
+
+.json-comma {
+  color: #d4d4d4;
+}
+
+.json-empty {
+  color: #6a6a6a;
+  font-style: italic;
+  margin-left: 8px;
+}
+
+.json-child {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+}

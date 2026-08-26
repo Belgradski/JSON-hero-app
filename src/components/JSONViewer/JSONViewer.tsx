@@ -7,7 +7,7 @@ interface JSONViewerProps {
     data: JSONValue;
 }
 
-export const JSONViewer = ({data}): JSONViewerProps => {
+export const JSONViewer = ({data}: JSONViewerProps) => {
     const [collapsedPaths, setCollapsedPaths] = useState<Set<string>>(new Set())
 
     const toggleCollapse = (path: string) => {
